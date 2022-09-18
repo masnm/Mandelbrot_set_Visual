@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/masnm/codes/Mandelbrot_set_Visual/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220828.0/
+Attribs	src/main.c	/^} Attribs ;$/;"	t	typeref:enum:__anon6a96e1720103	file:
+CC	Makefile	/^CC=gcc$/;"	m
+Dependency	README.md	/^### Dependency$/;"	S	chapter:Mandelbrot Set Visual
+EBO	src/main.c	/^GLuint EBO, VBO, VAO;$/;"	v	typeref:typename:GLuint
+ID	src/main.c	/^GLuint ID;$/;"	v	typeref:typename:GLuint
+INDEX_ARRAY_SIZE	src/main.c	/^#define INDEX_ARRAY_SIZE /;"	d	file:
+Mandelbrot Set Visual	README.md	/^# Mandelbrot Set Visual$/;"	c
+MouseButton	src/main.c	/^void MouseButton ( int key, int state, int x, int y )$/;"	f	typeref:typename:void
+MouseMotion	src/main.c	/^void MouseMotion ( int x, int y )$/;"	f	typeref:typename:void
+ScreenToWorld	src/main.c	/^void ScreenToWorld(int nScreenX, int nScreenY, float *fWorldX, float *fWorldY)$/;"	f	typeref:typename:void
+VAO	src/main.c	/^GLuint EBO, VBO, VAO;$/;"	v	typeref:typename:GLuint
+VBO	src/main.c	/^GLuint EBO, VBO, VAO;$/;"	v	typeref:typename:GLuint
+VERTEX_ARRAY_SIZE	src/main.c	/^#define VERTEX_ARRAY_SIZE /;"	d	file:
+WorldToScreen	src/main.c	/^void WorldToScreen(float fWorldX, float fWorldY, int *nScreenX, int *nScreenY)$/;"	f	typeref:typename:void
+__LINEAR_ALGEBRA_H__	include/linear_algebra.h	/^#define __LINEAR_ALGEBRA_H__$/;"	d
+__SHADER_H__	include/shader.h	/^#define __SHADER_H__$/;"	d
+__anon20bf67f60108	include/linear_algebra.h	/^typedef struct {$/;"	s
+__anon20bf67f60208	include/linear_algebra.h	/^typedef struct {$/;"	s
+__anon20bf67f60308	include/linear_algebra.h	/^typedef struct {$/;"	s
+__anon20bf67f60408	include/linear_algebra.h	/^typedef struct {$/;"	s
+__anon6a96e1720103	src/main.c	/^typedef enum {$/;"	g	file:
+__anon6a96e1720208	src/main.c	/^typedef struct {$/;"	s	file:
+attribs_count	src/main.c	/^	attribs_count$/;"	e	enum:__anon6a96e1720103	file:
+bin/main.out	Makefile	/^bin\/main.out: src\/main.c $(objs)$/;"	t
+cflags	Makefile	/^cflags=-O2 -std=c11 -Wshadow -Wall -pedantic -lm$/;"	m
+colour	src/main.c	/^	colour,$/;"	e	enum:__anon6a96e1720103	file:
+colour	src/main.c	/^	vec4f colour;$/;"	m	struct:__anon6a96e1720208	typeref:typename:vec4f	file:
+create_string_from_file	src/shader.c	/^char* create_string_from_file ( const char* file_path )$/;"	f	typeref:typename:char *
+dbg	Makefile	/^dbg=-fsanitize=address -fsanitize=undefined -D_GLIBCXX_DEBUG -g -DLOCAL$/;"	m
+display	src/main.c	/^static void display ( void )$/;"	f	typeref:typename:void	file:
+fOffsetX	src/main.c	/^float fOffsetX = 0.0f;$/;"	v	typeref:typename:float
+fOffsetY	src/main.c	/^float fOffsetY = 0.0f;$/;"	v	typeref:typename:float
+fScaleX	src/main.c	/^float fScaleX = 1.0f;$/;"	v	typeref:typename:float
+fScaleY	src/main.c	/^float fScaleY = 1.0f;$/;"	v	typeref:typename:float
+fSelectedCellX	src/main.c	/^float fSelectedCellX = 0.0f;$/;"	v	typeref:typename:float
+fSelectedCellY	src/main.c	/^float fSelectedCellY = 0.0f;$/;"	v	typeref:typename:float
+fStartPanX	src/main.c	/^float fStartPanX = 0.0f;$/;"	v	typeref:typename:float
+fStartPanY	src/main.c	/^float fStartPanY = 0.0f;$/;"	v	typeref:typename:float
+fix_point_uni	src/main.c	/^GLint time_uni, resolution_uni, fix_point_uni, scale_uni, offset_uni;$/;"	v	typeref:typename:GLint
+glut	Makefile	/^glut=-lGL -lGLU -lglut -lGLEW$/;"	m
+idle	src/main.c	/^static void idle ( void ) { glutPostRedisplay (); }$/;"	f	typeref:typename:void	file:
+index_array_sz	src/main.c	/^uint32_t index_array_sz = 0;$/;"	v	typeref:typename:uint32_t
+indexes	src/main.c	/^GLuint indexes[INDEX_ARRAY_SIZE];$/;"	v	typeref:typename:GLuint[]
+init_gl_unifomrs	src/main.c	/^void init_gl_unifomrs ( void )$/;"	f	typeref:typename:void
+init_one_uniform	src/main.c	/^void init_one_uniform ( GLint* uni, const char* name )$/;"	f	typeref:typename:void
+main	src/main.c	/^int main ( int argc, char* argv[] )$/;"	f	typeref:typename:int
+mouse_held	src/main.c	/^bool mouse_held = false;$/;"	v	typeref:typename:bool
+normalkeyfun	src/main.c	/^void normalkeyfun ( unsigned char key, int x, int y )$/;"	f	typeref:typename:void
+obj/shader.o	Makefile	/^obj\/shader.o: include\/shader.h src\/shader.c$/;"	t
+objs	Makefile	/^objs=obj\/shader.o$/;"	m
+offset_uni	src/main.c	/^GLint time_uni, resolution_uni, fix_point_uni, scale_uni, offset_uni;$/;"	v	typeref:typename:GLint
+pos	src/main.c	/^	pos = 0,$/;"	e	enum:__anon6a96e1720103	file:
+pos	src/main.c	/^	vec2f pos;$/;"	m	struct:__anon6a96e1720208	typeref:typename:vec2f	file:
+process_Normal_Keys	src/main.c	/^void process_Normal_Keys(int key, int x, int y)$/;"	f	typeref:typename:void
+push_quad	src/main.c	/^void push_quad ( vertex tl, vertex br ) \/\/ vec2f tl, vec2f br )$/;"	f	typeref:typename:void
+resolution_uni	src/main.c	/^GLint time_uni, resolution_uni, fix_point_uni, scale_uni, offset_uni;$/;"	v	typeref:typename:GLint
+run	Makefile	/^run: bin\/main.out$/;"	t
+scale_uni	src/main.c	/^GLint time_uni, resolution_uni, fix_point_uni, scale_uni, offset_uni;$/;"	v	typeref:typename:GLint
+shader_create_and_use	src/shader.c	/^GLuint shader_create_and_use ( const char* vertex_shader_source_file,$/;"	f	typeref:typename:GLuint
+sync_vertex_buffer	src/main.c	/^void sync_vertex_buffer ( void )$/;"	f	typeref:typename:void
+time_uni	src/main.c	/^GLint time_uni, resolution_uni, fix_point_uni, scale_uni, offset_uni;$/;"	v	typeref:typename:GLint
+uv	src/main.c	/^	uv,$/;"	e	enum:__anon6a96e1720103	file:
+uv	src/main.c	/^	vec2f uv;$/;"	m	struct:__anon6a96e1720208	typeref:typename:vec2f	file:
+vec2d	include/linear_algebra.h	/^} vec2d ;$/;"	t	typeref:struct:__anon20bf67f60108
+vec2f	include/linear_algebra.h	/^} vec2f ;$/;"	t	typeref:struct:__anon20bf67f60308
+vec4d	include/linear_algebra.h	/^} vec4d ;$/;"	t	typeref:struct:__anon20bf67f60208
+vec4f	include/linear_algebra.h	/^} vec4f ;$/;"	t	typeref:struct:__anon20bf67f60408
+vertex	src/main.c	/^} vertex ;$/;"	t	typeref:struct:__anon6a96e1720208	file:
+vertex_array_sz	src/main.c	/^uint32_t vertex_array_sz = 0;$/;"	v	typeref:typename:uint32_t
+vertexes	src/main.c	/^vertex vertexes[VERTEX_ARRAY_SIZE];$/;"	v	typeref:typename:vertex[]
+w	include/linear_algebra.h	/^	float w;$/;"	m	struct:__anon20bf67f60408	typeref:typename:float
+w	include/linear_algebra.h	/^	int w;$/;"	m	struct:__anon20bf67f60208	typeref:typename:int
+x	include/linear_algebra.h	/^	float x;$/;"	m	struct:__anon20bf67f60308	typeref:typename:float
+x	include/linear_algebra.h	/^	float x;$/;"	m	struct:__anon20bf67f60408	typeref:typename:float
+x	include/linear_algebra.h	/^	int x;$/;"	m	struct:__anon20bf67f60108	typeref:typename:int
+x	include/linear_algebra.h	/^	int x;$/;"	m	struct:__anon20bf67f60208	typeref:typename:int
+y	include/linear_algebra.h	/^	float y;$/;"	m	struct:__anon20bf67f60308	typeref:typename:float
+y	include/linear_algebra.h	/^	float y;$/;"	m	struct:__anon20bf67f60408	typeref:typename:float
+y	include/linear_algebra.h	/^	int y;$/;"	m	struct:__anon20bf67f60108	typeref:typename:int
+y	include/linear_algebra.h	/^	int y;$/;"	m	struct:__anon20bf67f60208	typeref:typename:int
+z	include/linear_algebra.h	/^	float z;$/;"	m	struct:__anon20bf67f60408	typeref:typename:float
+z	include/linear_algebra.h	/^	int z;$/;"	m	struct:__anon20bf67f60208	typeref:typename:int
