@@ -15,7 +15,7 @@ void main()
 	float x = 0.0;
 	float y = 0.0;
 	float iteration = 0;
-	float max_iteration = 1024;
+	float max_iteration = 2048;
 	float xtemp;
 	while ( x*x + y*y <= 4 && iteration < max_iteration ) {
 		xtemp = x*x - y*y + x0;

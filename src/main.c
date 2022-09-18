@@ -52,8 +52,8 @@ void push_quad ( vertex tl, vertex br ) // vec2f tl, vec2f br )
 
 void pop_quad ( void )
 {
-	vertex_array_sz = 0;
-	index_array_sz = 0;
+	vertex_array_sz -= 4;
+	index_array_sz -= 6;
 }
 
 void sync_vertex_buffer ( void )
@@ -87,9 +87,19 @@ int old_mx, old_my;
 
 void process_Normal_Keys(int key, int x, int y)
 {
+	float sx = ((x/current_max_x)*(xhigh-xlow))+xlow;
+	float sy = ((y/current_max_y)*(yhigh-ylow))+ylow;
 	if ( key == 101 ) { // up arrow
+		xlow = ((xlow-sx)/1.1)+sx;
+		xhigh = ((xhigh-sx)/1.1)+sx;
+		ylow = ((ylow-sy)/1.1)+sy;
+		yhigh = ((yhigh-sy)/1.1)+sy;
 	}
 	if ( key == 103 ) { // down arrow
+		xlow = ((xlow-sx)/0.9)+sx;
+		xhigh = ((xhigh-sx)/0.9)+sx;
+		ylow = ((ylow-sy)/0.9)+sy;
+		yhigh = ((yhigh-sy)/0.9)+sy;
 	}
 }
 
@@ -151,7 +161,7 @@ static void idle ( void ) { glutPostRedisplay (); }
 int main ( int argc, char* argv[] )
 {
 	glutInit ( &argc, argv );
-	glutInitWindowSize ( 741, 672 );
+	glutInitWindowSize ( 1235, 1120 );
 	glutInitWindowPosition ( 100, 100 );
 	glutInitDisplayMode ( GLUT_RGB | GLUT_DOUBLE);
 
